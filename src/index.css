@@ -1,0 +1,29 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: aqua;
+}
+.navbar-links{
+  width: 100%;
+  height: auto;
+}
+.navbar-links li{
+  padding: 10px 30px;
+  font-size: 20px;
+  display: inline-block;
+}
+.navbar-links a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+/* Media Query */
+@media screen and (max-width:768px) {
+  .table tr td{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+  }
+}
